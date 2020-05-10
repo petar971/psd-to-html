@@ -1,0 +1,242 @@
+/* @import url(//db.onlinewebfonts.com/c/21557ee414b26ee5e210afc96ebc6fbc?family=Aachen+BT); */
+/* @import url(//db.onlinewebfonts.com/c/21557ee414b26ee5e210afc96ebc6fbc?family=Aachen+BT); */
+/* HEADER STYLE*/
+*{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Aachen BT";
+	color: white;
+
+}
+body{
+	background-color: #1d1d23;
+}
+
+header{
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: url("bg-header.jpg");
+	height: 100%;
+	
+}
+nav
+{
+	width: 100%;
+	
+}
+ul{
+	padding-top: 40px;
+	display:flex;
+	justify-content: center;
+}
+a
+{
+	font-size: 16px;
+	color: white;
+}
+h3
+{
+	font-size: 25px;
+}
+.nav-btn
+{
+
+margin-left:40px;
+margin-top: 35px;
+}
+.slider 
+{
+margin-top: 80px;
+display: flex;
+}
+.header2
+{
+font-size:66px;
+color: #e58f00;
+}
+.header3
+{
+	margin-top:30px;
+	color: white;
+	margin-bottom:57px;
+}
+.btn-contact
+{
+	border-radius: 5px;
+	margin-top: 35px;
+	padding:25px 45px 25px 45px;
+	font-size: 25px;
+	background-color: #e58f00;
+	color: 	#28282d;
+}
+ .logo
+{
+	margin-left:280px;
+	margin-right: 220px;
+} 
+.slider-content
+{
+margin-left:36px;
+}
+/* HEADER STYLE THE END */
+
+/* ABOUT US */
+
+.aboutus
+{
+	margin-left: 120px;
+	justify-content: center;
+	margin-top: 119px;
+	display: flex;
+}
+
+.about-content > h2{
+	color: white;
+}
+.about-header{
+font-size: 50px;
+}
+.about-text
+{
+	font-size: 33px;
+	margin-top: 89px;
+}
+
+/* ABOUT US THE END */
+
+/* FOOD QUALITY */
+
+.food-quality
+{
+
+background-position: top; 
+margin-top: 220px;
+	background-image:url("bg-image.png");
+}
+
+.right-image
+{
+
+    position: relative;
+   
+    bottom: 119px;
+	float: right;
+}
+.second
+{
+    position: relative;
+    top: 671px;
+    bottom: 1px;
+    left: 430px;
+
+}
+
+.left-image
+{
+	position: relative;
+	right:100px;
+	/* float: left; */
+}
+
+.gallery
+{
+	margin-top: 182px;
+}
+.gallery-title{
+	text-align: center;
+
+}
+
+.images
+{
+	margin-bottom:33px;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.image{
+	margin-top: 30px;
+	width: 32%;
+}
+
+.our-food
+{
+	
+	margin-top: 147px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.our-food-content
+{
+
+	background-color:  rgba(29,29,35,0.7);
+
+	border:10px solid #e58f00;
+	padding-top: 82px;
+	padding-bottom: 120px;
+	padding-left: 93px;
+	padding-right: 93px;
+	
+	position:absolute;
+	width: 50%;
+	
+
+   
+}
+
+.our-food-content > h2
+{
+
+	font-size: 55px;
+}
+
+.our-food-content > p
+{
+	padding-top: 33px;
+	font-size: 33px;
+}
+.menu
+{
+	margin-left: 72px;
+	margin-right: 72px;
+
+	display: flex;
+	justify-content:space-between;
+}
+.menu-cart
+{
+
+	width:32%;
+}
+
+.food-cart-title
+{
+	margin-top:46px;
+	color:#e58f00;
+	font-size: 30px;
+}
+.food-cart-content
+{
+	padding-top: 22px;
+	font-size: 16px;
+}
+.food-cart-price{
+	padding-top: 46px;
+	color:#e58f00;
+	font-size:25px;
+}
+.menu-header
+{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 185px;
+	margin-bottom: 87px;
+}
